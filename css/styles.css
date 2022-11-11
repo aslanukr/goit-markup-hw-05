@@ -591,6 +591,10 @@ PORTFOLIO STYLES
   text-align: center;
   border-style: none;
   border-radius: 4px;
+  box-shadow: none;
+
+  transition: background-color 250ms var(--timing-function),
+    color 250ms var(--timing-function), box-shadow 250ms var(--timing-function);
 }
 
 .filters-btn:hover,
