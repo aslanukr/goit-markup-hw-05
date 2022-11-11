@@ -541,10 +541,14 @@ OUR CLIENT`S SECTION
 
   border: 1px solid #afb1b8;
   border-radius: 4px;
+
+  transition: border 250ms var(--timing-function);
 }
 
 .clients-icon {
   fill: var(--socials-link-color);
+
+  transition: fill 250ms var(--timing-function);
 }
 
 .clients-link:hover,
