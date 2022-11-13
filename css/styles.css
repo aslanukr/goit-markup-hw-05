@@ -257,7 +257,7 @@ HERO SECTION
     ),
     url(../images/hero-bg.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 
 .hero.section {
