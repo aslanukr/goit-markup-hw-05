@@ -793,7 +793,6 @@ PORTFOLIO STYLES
 
   opacity: 1;
   visibility: visible;
-  /* transform: scale(1); */
 
   transition: opacity 250ms var(--timing-function),
     visibility 250ms var(--timing-function);
@@ -819,13 +818,15 @@ PORTFOLIO STYLES
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
 
+  opacity: 1;
   transform: translate(-50%, -50%) scale(1);
-
-  transition: transform 250ms var(--timing-function);
+  transition: transform 250ms var(--timing-function),
+    opacity 250ms var(--timing-function);
 }
 
 .backdrop.is-hidden .modal {
-  transform: translate(-50%, -50%) scale(1.5);
+  opacity: 0;
+  transform: translate(-50%, -50%) scale(0.3);
 }
 
 .modal-btn {
